@@ -1,0 +1,37 @@
+:root {
+  /* Warna latar: hitam-navy */
+  --bg: #070b1a;
+  --bg-elev: #0a1030;
+  --surface: #121a3d;
+  --surface-2: #1b2554;
+  --border: rgba(148, 163, 255, 0.18);
+
+  /* Teks */
+  --text: #e8ebff;
+  --text-muted: #a3acdb;
+
+  /* Aksen: ungu dan biru */
+  --primary: #6d4aff;
+  --primary-2: #4f6bff;
+  --accent: #38bdf8;
+  --gradient: linear-gradient(135deg, #6d4aff, #38bdf8);
+  --gradient-btn: linear-gradient(135deg, #6d4aff, #4f6bff);
+
+  /* Status */
+  --success: #34d399;
+  --warning: #fbbf24;
+  --danger: #f87171;
+
+  /* Bentuk */
+  --r-sm: 10px;
+  --r-md: 14px;
+  --r-lg: 20px;
+
+  /* Ukuran */
+  --tap: 44px;                 /* area sentuh minimal */
+  --bottom-nav-h: 64px;
+  --sidebar-w: 248px;
+  --sidebar-w-collapsed: 76px;
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-top: env(safe-area-inset-top, 0px);
+}
